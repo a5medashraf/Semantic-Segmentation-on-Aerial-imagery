@@ -39,15 +39,15 @@ SegNet Architecture and SegNet: Skip-Connection with depthwise convolution were 
 The Evaluation was Done using Dice-Coeffient.
 ![image](https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/ff1523d8-4586-4993-9844-39fcac339d02)
 
+### Method 4: Post-Processing
 
+We have tried to use post-processing to overcome the effect of the patchy image that has something that looks like there is a Grid on the image so we have used the following methodology:
+1- Detect edges using the Sobel filter
+2- Inpainting edges with neighbor pixels
 
-### Results
+### Final Result:
+![image](https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/7d02da61-1961-481e-8fc9-244fd136f783)
 
-According to human observation and testing the program has a **good** result. However, more data are required to be apple to measure the error using a **metric** and to better **tune the Thresholds**.
-
-### How to use it
-
-just download the code.py file and import the required libraries and run it on the python editor.
 
 ### References
 - https://www.researchgate.net/publication/365977982_COUNTERFEIT_CURRENCY_DETECTION_USING_IMAGE_PROCESSING
