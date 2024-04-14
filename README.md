@@ -5,7 +5,7 @@ By using deep learning, Semantic Segmentation on Aerial Imagery deciphers landsc
 This project aims to segment **6 classes** (Building, Land, Road, Vegetation, Water & Unlabeled) in the satellite image.
 
 ### DataSet: 1305 images divided into 8 groups (Tiles), Each group has its image Size as follows:
-
+#### Data_Link: https://www.kaggle.com/datasets/humansintheloop/semantic-segmentation-of-aerial-imagery
 <img src="https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/b3309699-a10b-48b7-972f-5984ff84f033" width="500" height="450">
 
 
@@ -48,6 +48,9 @@ We have tried to use post-processing to overcome the effect of the patchy image 
 ### Final Result of SegNet: Skip-Connections:
 ![image](https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/e6bc4c31-f26f-4f35-8278-d226817234c8)
 
+
+
+#### Kaggle_Notebook: [https://www.kaggle.com/datasets/humansintheloop/semantic-segmentation-of-aerial-imagery](https://www.kaggle.com/code/a5medashraf/semantic-segmentation-using-segnet-skip-connection)
 
 ### References
 - https://arxiv.org/abs/1511.00561
