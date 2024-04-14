@@ -4,7 +4,7 @@
 By using deep learning, Semantic Segmentation on Aerial Imagery deciphers landscapes from above, pinpointing objects and features with remarkable accuracy. This innovative method transforms aerial mapping, providing crucial insights for urban planning, environmental monitoring, and more.
 This project aims to segment **6 classes** (Building, Land, Road, Vegetation, Water & Unlabeled) in the satellite image.
 
-### DataSet: 1305 images divided into 8 groups (Tiles), Each group has its own image Size as follows:
+### DataSet: 1305 images divided into 8 groups (Tiles), Each group has its image Size as follows:
 
 <img src="https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/b3309699-a10b-48b7-972f-5984ff84f033" width="500" height="450">
 
@@ -18,14 +18,7 @@ The first method is patching the images to have the same image shape of 256x256 
 For Example:
 The image of 797 x 644 will be 768 x 512 and then crop the image into 6 patches.
 <img src="https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/c573cbfc-f0cb-4ece-929e-e92533b43112" width="500" height="450">
-
-This method is based on this [Paper](https://www.researchgate.net/publication/365977982_COUNTERFEIT_CURRENCY_DETECTION_USING_IMAGE_PROCESSING).
-The following steps are followed in this method:
-
-1. Convert the Image to HSV Color Space
-2. Apply Histogram Equalization on The Image
-3. Compare the mean saturation of the current Image with the reference image
-
+![image](https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/98b491fb-0352-469d-bf2d-1c35011b308d)
 
 ### Method 2: Feature Extraction
 The first method in the fake currency detection process is **extracting features** from the Current image and comparing them with the extracted features of the reference Image.
