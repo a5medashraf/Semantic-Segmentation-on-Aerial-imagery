@@ -20,19 +20,12 @@ The image of 797 x 644 will be 768 x 512 and then crop the image into 6 patches.
 <img src="https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/c573cbfc-f0cb-4ece-929e-e92533b43112" width="500" height="450">
 ![image](https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/98b491fb-0352-469d-bf2d-1c35011b308d)
 
-### Method 2: Feature Extraction
-The first method in the fake currency detection process is **extracting features** from the Current image and comparing them with the extracted features of the reference Image.
-The features that we have focused on are **(Blendlines, Serial number & Font size).**
-The following steps are followed in this method:
+### Method 2: Mask Encoding
 
-1. Convert the Image to gray Color Space
-2. use the canny detector to detect edges
-3. Apply Closing to connect objects to each other
-4. Apply Region filling
-5. Apply Edge-based segmentation
-<img src="xyyz.JPG" alt="Image" width="620px" height="auto">
+This Mask Encoding focuses on a specific step within a 6-class semantic segmentation process. It takes a mask image, where each pixel represents a class (1 to 6), and converts it into a format suitable for training a model. This conversion involves creating a one-hot vector for each pixel, where only the element corresponding to the class (1-6) has a value of 1, and all others are 0.
 
-There are More details about the methodology illustrated in the presentation file.
+![image](https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/f111a4ad-1f22-4ea9-a353-30ea3e963901)
+
 
 ### Results
 
