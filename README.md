@@ -2,18 +2,11 @@
  
 ## Introduction
 By using deep learning, Semantic Segmentation on Aerial Imagery deciphers landscapes from above, pinpointing objects and features with remarkable accuracy. This innovative method transforms aerial mapping, providing crucial insights for urban planning, environmental monitoring, and more.
-This project aims to segment **6 classes** (Building, Land, Road, Vegetation, Water & Unlabeled) in the satalliete image.
+This project aims to segment **6 classes** (Building, Land, Road, Vegetation, Water & Unlabeled) in the satellite image.
 
-### DataSet: 1305 image divided into 8 groups (Tiles), Each group has it's own image Size as follows:
-Tile 1: 797 x 644 --> 768 x 512 --> 6
-Tile 2: 509 x 544 --> 512 x 256 --> 2
-Tile 3: 682 x 658 --> 512 x 512  --> 4
-Tile 4: 1099 x 846 --> 1024 x 768 --> 12
-Tile 5: 1126 x 1058 --> 1024 x 1024 --> 16
-Tile 6: 859 x 838 --> 768 x 768 --> 9
-Tile 7: 1817 x 2061 --> 1792 x 2048 --> 56
-Tile 8: 2149 x 1479 --> 1280 x 2048 --> 40
-![image](https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/b3309699-a10b-48b7-972f-5984ff84f033)
+### DataSet: 1305 images divided into 8 groups (Tiles), Each group has its own image Size as follows:
+
+![image](https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/b3309699-a10b-48b7-972f-5984ff84f033){:width="300px" height="200px"}
 
 
 ## Methodology
