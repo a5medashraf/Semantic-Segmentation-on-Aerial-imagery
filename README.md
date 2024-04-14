@@ -12,8 +12,13 @@ This project aims to segment **6 classes** (Building, Land, Road, Vegetation, Wa
 ## Methodology
 The methodology consists of **5** methods.
 
-### Method 1: 
-The first method in the fake currency detection process is simulating the **ultraviolet effect** on the fake image. 
+### Method 1: Patching
+ 
+The first method is patching the images to have the same image shape of 256x256 by Cropping the column and the width to be divisible by 256 and then patching the image.
+For Example:
+The image of 797 x 644 will be 768 x 512 and then crop the image into 6 patches.
+<img src="https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/c573cbfc-f0cb-4ece-929e-e92533b43112" width="500" height="450">
+
 This method is based on this [Paper](https://www.researchgate.net/publication/365977982_COUNTERFEIT_CURRENCY_DETECTION_USING_IMAGE_PROCESSING).
 The following steps are followed in this method:
 
