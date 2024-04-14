@@ -10,7 +10,7 @@ This project aims to segment **6 classes** (Building, Land, Road, Vegetation, Wa
 
 
 ## Methodology
-The methodology consists of **5** methods.
+The methodology consists of **4** methods.
 
 ### Method 1: Patching
  
@@ -45,14 +45,16 @@ We have tried to use post-processing to overcome the effect of the patchy image 
 1- Detect edges using the Sobel filter
 2- Inpainting edges with neighbor pixels
 
-### Final Result:
-![image](https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/7d02da61-1961-481e-8fc9-244fd136f783)
+### Final Result of SegNet: Skip-Connections:
+![image](https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/e6bc4c31-f26f-4f35-8278-d226817234c8)
 
 
 ### References
-- https://www.researchgate.net/publication/365977982_COUNTERFEIT_CURRENCY_DETECTION_USING_IMAGE_PROCESSING
-- https://iopscience.iop.org/article/10.1088/1757-899X/263/5/052047
-- https://ijcsmc.com/docs/papers/April2019/V8I4201914.pdf
-- https://www.mintageworld.com/knowledge-base/security-features-on-current-banknotes/
+- https://arxiv.org/abs/1511.00561
+- https://www.kaggle.com/datasets/humansintheloop/semantic-segmentation-of-aerial-imagery
+- https://www.researchgate.net/publication/358867978_Fully_convolutional_neural_network_with_attention_gate_and_fuzzy_active_contour_model_for_skin_lesion_segmentation
+
+
+
 
 
