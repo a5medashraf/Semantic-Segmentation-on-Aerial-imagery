@@ -6,7 +6,7 @@ This project aims to segment **6 classes** (Building, Land, Road, Vegetation, Wa
 
 ### DataSet: 1305 images divided into 8 groups (Tiles), Each group has its own image Size as follows:
 
-<img src="https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/b3309699-a10b-48b7-972f-5984ff84f033" width="400" height="500">
+<img src="https://github.com/a5medashraf/Semantic-Segmentation-on-Aerial-imagery/assets/72763763/b3309699-a10b-48b7-972f-5984ff84f033" width="700" height="500">
 
 
 ## Methodology
